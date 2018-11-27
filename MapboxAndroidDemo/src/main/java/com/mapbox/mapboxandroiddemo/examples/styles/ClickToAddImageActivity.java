@@ -1,7 +1,5 @@
 package com.mapbox.mapboxandroiddemo.examples.styles;
 
-// #-code-snippet: click-to-add-image-activity full-java
-
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -48,12 +46,12 @@ public class ClickToAddImageActivity extends AppCompatActivity implements
   private static final String ID_IMAGE_SOURCE = "source-id";
   private static final String CIRCLE_SOURCE_ID = "circle-source-id";
   private static final String ID_IMAGE_LAYER = "layer-id";
+  private static int PHOTO_PICK_CODE = 4;
   private MapView mapView;
   private MapboxMap mapboxMap;
   private LatLngQuad quad;
   private List<Feature> boundsFeatureList;
   private List<Point> boundsCirclePointList;
-  private static int PHOTO_PICK_CODE = 4;
   private int imageCountIndex;
 
   @Override
@@ -256,4 +254,3 @@ public class ClickToAddImageActivity extends AppCompatActivity implements
     mapView.onSaveInstanceState(outState);
   }
 }
-// #-end-code-snippet: click-to-add-image-activity full-java
