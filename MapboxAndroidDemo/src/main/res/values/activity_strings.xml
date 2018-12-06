@@ -289,4 +289,8 @@
     <!-- Tilequery API -->
     <string name="api_response">Tilequery API response:</string>
     <string name="api_error">Error with the request. Do you have internet access?</string>
+
+    <!-- Zoom based icon change -->
+    <string name="zoom_map_in_and_out_icon_switch_instruction">Zoom in and out to see the icons change</string>
+
 </resources>
